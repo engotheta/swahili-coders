@@ -78,7 +78,7 @@
           @foreach($projects as $key => $project)
             @break($key > 2)
             <div class="col px-0 border-faded mb-1 bg-white-transparent py-0 my-0 " style="min-height:80px">
-              <a href="{{asset('projects/'.$project->slug)}}" target="_blank" 
+              <a href="{{asset('projects/'.$project->slug)}}"   
                 class="row h-100 mx-0 cursor-pointer bg-gradient-white-secondary 
                 box-shadow-slight hover-bg has-hover-bounce has-hover-text-primary has-hover-text-secondary">
                 <div class=" col-3  h-100 text-center border-right border-color-black">
